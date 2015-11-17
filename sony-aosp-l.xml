@@ -46,14 +46,17 @@
   <project name="device-sony-rhine" path="device/sony/rhine" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-honami" path="device/sony/honami" groups="device" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-amami" path="device/sony/amami" groups="device" remote="b2g" revision="sony-aosp-l"/>
-
+  
   <!-- Yukon platform specific things -->
   <project name="device-sony-yukon" path="device/sony/yukon" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-tianchi" path="device/sony/tianchi" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-eagle" path="device/sony/eagle" remote="b2g" revision="sony-aosp-l"/>
   <project name="device-sony-flamingo" path="device/sony/flamingo" remote="b2g" revision="sony-aosp-l"/>
+  <remote fetch="git://github.com/nicodel/" name="nicodel"/>
+  <!-- <project name="device&#45;sony&#45;seagull" path="device/sony/seagull" remote="AdFad666" revision="sony&#45;aosp&#45;l"/> -->
+  <project name="device-sony-seagull" path="device/sony/seagull" remote="nicodel" revision="sony-aosp-l"/>
   <remote fetch="git://github.com/AdFad666/" name="AdFad666"/>
   <project name="device/sony/seagull" path="device/sony/seagull" remote="AdFad666" revision="sony-aosp-l"/>
   <!-- <project name="device-sony-seagull" path="device/sony/seagull" remote="nicodel" revision="sony-aosp-l"/> -->
-
-</manifest>
+ 
+ </manifest>
